@@ -37,7 +37,7 @@ public class CalculadoraTest {
 		driver.findElementById("com.android.calculator2:id/digit_2").click();		
 		driver.findElementByAccessibilityId("plus").click();		
 		driver.findElementById("com.android.calculator2:id/digit_3").click();		
-		assertEquals("5", driver.findElementById("com.android.calculator2:id/result").getText());
+		assertEquals("8", driver.findElementById("com.android.calculator2:id/result").getText());
 	}
 
 	@After

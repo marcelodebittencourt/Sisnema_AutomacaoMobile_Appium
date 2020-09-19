@@ -34,10 +34,14 @@ public class CalculadoraTest {
 
 	@Test
 	public void sampleTest() {
-		driver.findElementById("com.android.calculator2:id/digit_2").click();		
-		driver.findElementByAccessibilityId("plus").click();		
-		driver.findElementById("com.android.calculator2:id/digit_3").click();		
-		assertEquals("5", driver.findElementById("com.android.calculator2:id/result").getText());
+		MobileElement el4 = (MobileElement) driver.findElementById("com.android.calculator2:id/digit_2");
+		el4.click();
+		MobileElement el5 = (MobileElement) driver.findElementByAccessibilityId("plus");
+		el5.click();
+		MobileElement el6 = (MobileElement) driver.findElementById("com.android.calculator2:id/digit_3");
+		el6.click();
+		MobileElement el7 = (MobileElement) driver.findElementById("com.android.calculator2:id/result");
+		assertEquals("5", el7.getText());
 	}
 
 	@After
