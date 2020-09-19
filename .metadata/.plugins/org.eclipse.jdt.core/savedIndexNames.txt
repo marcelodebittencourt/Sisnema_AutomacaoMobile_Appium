@@ -58,4 +58,5 @@ INDEX VERSION 1.131+C:\Users\marce\git\Sisnema_AutomacaoMobile_Appium\.metadata\
 1352427325.index
 460086306.index
 3418005669.index
+2296964604.index
 3445470295.index
